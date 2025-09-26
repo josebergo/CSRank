@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\4\\Rank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD8D831-B4E0-410F-A47E-9D92DF07AF98}|Rank.csproj|d:\\code\\4\\rank\\controllers\\rankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD8D831-B4E0-410F-A47E-9D92DF07AF98}|Rank.csproj|solutionrelative:controllers\\rankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE4745B-16EE-4B4F-984B-F4124083298D}|..\\Service\\Service.csproj|d:\\code\\4\\service\\services\\leaderboardservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE4745B-16EE-4B4F-984B-F4124083298D}|..\\Service\\Service.csproj|d:\\code\\4\\service\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE4745B-16EE-4B4F-984B-F4124083298D}|..\\Service\\Service.csproj|d:\\code\\4\\service\\services\\ileaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD8D831-B4E0-410F-A47E-9D92DF07AF98}|Rank.csproj|d:\\code\\4\\rank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD8D831-B4E0-410F-A47E-9D92DF07AF98}|Rank.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE4745B-16EE-4B4F-984B-F4124083298D}|..\\Service\\Service.csproj|d:\\code\\4\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Jam\\Paractice\\Service\\Service\\LeaderboardService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Jam\\Paractice\\Service\\Service\\ILeaderboardService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Jam\\Paractice\\Service\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 152,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaderboardService .cs",
+              "DocumentMoniker": "D:\\Code\\4\\Service\\Services\\LeaderboardService .cs",
+              "RelativeDocumentMoniker": "..\\Service\\Services\\LeaderboardService .cs",
+              "ToolTip": "D:\\Code\\4\\Service\\Services\\LeaderboardService .cs",
+              "RelativeToolTip": "..\\Service\\Services\\LeaderboardService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:35:13.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILeaderboardService.cs",
+              "DocumentMoniker": "D:\\Code\\4\\Service\\Services\\ILeaderboardService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Services\\ILeaderboardService.cs",
+              "ToolTip": "D:\\Code\\4\\Service\\Services\\ILeaderboardService.cs",
+              "RelativeToolTip": "..\\Service\\Services\\ILeaderboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:34:51.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Code\\4\\Service\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Model\\Customer.cs",
+              "ToolTip": "D:\\Code\\4\\Service\\Model\\Customer.cs",
+              "RelativeToolTip": "..\\Service\\Model\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:33:57.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\4\\Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Program.cs",
+              "ToolTip": "D:\\Code\\4\\Service\\Program.cs",
+              "RelativeToolTip": "..\\Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:32:50.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\4\\Rank\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\4\\Rank\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:48:00.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RankController.cs",
+              "DocumentMoniker": "D:\\Code\\4\\Rank\\Controllers\\RankController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RankController.cs",
+              "ToolTip": "D:\\Code\\4\\Rank\\Controllers\\RankController.cs",
+              "RelativeToolTip": "Controllers\\RankController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAADwv0QAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:43:34.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILeaderboardService.cs",
+              "DocumentMoniker": "D:\\Jam\\Paractice\\Service\\Service\\ILeaderboardService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Jam\\Paractice\\Service\\Service\\ILeaderboardService.cs",
+              "ToolTip": "D:\\Jam\\Paractice\\Service\\Service\\ILeaderboardService.cs",
+              "RelativeToolTip": "..\\..\\..\\Jam\\Paractice\\Service\\Service\\ILeaderboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:45:28.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaderboardService.cs",
+              "DocumentMoniker": "D:\\Jam\\Paractice\\Service\\Service\\LeaderboardService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Jam\\Paractice\\Service\\Service\\LeaderboardService.cs",
+              "ToolTip": "D:\\Jam\\Paractice\\Service\\Service\\LeaderboardService.cs",
+              "RelativeToolTip": "..\\..\\..\\Jam\\Paractice\\Service\\Service\\LeaderboardService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:44:55.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Jam\\Paractice\\Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Jam\\Paractice\\Service\\Program.cs",
+              "ToolTip": "D:\\Jam\\Paractice\\Service\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Jam\\Paractice\\Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:44:29.472Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
