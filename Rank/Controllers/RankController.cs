@@ -10,10 +10,12 @@ namespace Rank.Controllers
     public class LeaderboardController : ControllerBase
     {
         private readonly ILeaderboardService _service;
+        private readonly ISkipCaseService _skipService;
 
-        public LeaderboardController(ILeaderboardService service)
+        public LeaderboardController(ILeaderboardService service, ISkipCaseService skipCaseService)
         {
             _service = service;
+            _skipService = skipCaseService;
         }
 
         [HttpPost("customer/{customerid}/score/{score}")]
@@ -88,6 +90,10 @@ namespace Rank.Controllers
             return Ok(new { message = "Inserted 1,000,000 customers", timeMs = stopwatch.ElapsedMilliseconds, totalCount = total });
         }
 
+
+      
+
+
         /// <summary>
         /// 3ms 左右
         /// </summary>
@@ -122,5 +128,63 @@ namespace Rank.Controllers
             Console.WriteLine($"Retrieved neighbors of customer {customerId} in {stopwatch.ElapsedMilliseconds} ms. Count: {result.Count}");
             return Ok(new { customerId, timeMs = stopwatch.ElapsedMilliseconds, count = result.Count, data = result });
         }
+
+
+        /// <summary>
+        /// 模仿redis跳表 1百万插入测试  3s 左右 
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("test/skipCase/insert-1m")]
+        public IActionResult TestInsert1M__skipCase()
+        {
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+            var random = new Random(42);
+            Parallel.For(0L, 1000000L, i =>
+            {
+                long id = i + 1;
+                int deltaInt = random.Next(1, 1001);
+                decimal delta = (decimal)deltaInt;
+
+                _skipService.UpdateScore(id, delta);
+            });
+            stopwatch.Stop();
+            Console.WriteLine($"Inserted 1,000,000 customers in {stopwatch.ElapsedMilliseconds} ms. Total count: ");
+            return Ok(new { message = "Inserted 1,000,000 customers", timeMs = stopwatch.ElapsedMilliseconds });
+        }
+
+        /// <summary>
+        /// 模仿redis跳表 5万数据 8ms swagger渲染比较慢,api调用很快 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("test/skipCase/rank-500-10000")]
+        public IActionResult TestGetByRank__skipCase()
+        {
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+            var result = _skipService.GetCustomersByRank(500, 10000);
+            stopwatch.Stop();
+            Console.WriteLine($"Retrieved 50-50000 customers in {stopwatch.ElapsedMilliseconds} ms. Count: {result.Count}");
+            return Ok(new { timeMs = stopwatch.ElapsedMilliseconds, count = result.Count, data = result });
+        }
+
+
+        /// <summary>
+        /// 模仿redis跳表 1万数据 在 3ms左右 swagger渲染比较慢,api调用很快 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("test/skipCase/customer-neighbors-25000")]
+        public IActionResult TestGetByCustomer_skipCase()
+        {
+            long customerId = 25000;
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+            var result = _skipService.GetNeighbors(customerId, 1000, 5000);
+            stopwatch.Stop();
+            if (result == null)
+            {
+                return NotFound(new { message = "Customer not found or score <= 0", customerId });
+            }
+            Console.WriteLine($"Retrieved neighbors of customer {customerId} in {stopwatch.ElapsedMilliseconds} ms. Count: {result.Count}");
+            return Ok(new { customerId, timeMs = stopwatch.ElapsedMilliseconds, count = result.Count, data = result });
+        }
+
     }
 }

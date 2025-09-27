@@ -3,6 +3,9 @@ using System.Collections.Concurrent;
 
 namespace Service.Services
 {
+    /// <summary>
+    /// 使用ConcurrentDictionary  SortedSet方案
+    /// </summary>
     public class LeaderboardService: ILeaderboardService
     {
         //存储客户ID 分数，实现线程安全的快速查找

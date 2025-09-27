@@ -469,11 +469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\4\\Rank\\Rank.csproj",
+      "projectUniqueName": "D:\\Code\\5\\Rank\\Rank.csproj",
       "projectName": "Rank",
-      "projectPath": "D:\\Code\\4\\Rank\\Rank.csproj",
+      "projectPath": "D:\\Code\\5\\Rank\\Rank.csproj",
       "packagesPath": "C:\\Users\\oocn\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\4\\Rank\\obj\\",
+      "outputPath": "D:\\Code\\5\\Rank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -494,8 +494,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Code\\4\\Service\\Service.csproj": {
-              "projectPath": "D:\\Code\\4\\Service\\Service.csproj"
+            "D:\\Code\\5\\Service\\Service.csproj": {
+              "projectPath": "D:\\Code\\5\\Service\\Service.csproj"
             }
           }
         }
