@@ -4,7 +4,7 @@ namespace Service.Services
 {
     /// <summary>
     /// 跳表方案比较复杂,模仿REDIS Zset有序存储 
-    /// 心有余力不足,借助AI优化的代码
+    /// 借助AI优化的代码
     /// </summary>
     public class SkipCaseService: ISkipCaseService
     {
